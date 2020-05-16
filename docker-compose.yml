@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  mongo:
+    image: gitlab/gitlab-ce:latest
+    container_name: mongo
+    restart: on-failure
+    hostname: gitlab.cortijodemazas.com
+    ports:
+    - "80:80"
+    - "443:443"
