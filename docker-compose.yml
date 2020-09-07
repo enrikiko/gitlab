@@ -6,5 +6,5 @@ services:
     restart: on-failure
     hostname: gitlab.cortijodemazas.com
     ports:
-    - "80:80"
-    - "443:443"
+    - "8065:80"
+    - "8066:443"
