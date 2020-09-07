@@ -6,9 +6,9 @@ services:
     restart: always
     hostname: gitlab.cortijodemazas.com
     environment:
-    GITLAB_OMNIBUS_CONFIG: |
-      external_url 'http://gitlab.cortijodemazas.com'
-      gitlab_rails['gitlab_shell_ssh_port'] = 2224
+      GITLAB_OMNIBUS_CONFIG: |
+        external_url 'http://gitlab.cortijodemazas.com'
+        gitlab_rails['gitlab_shell_ssh_port'] = 2224
     ports:
     - "8065:80"
     - "8066:443"
