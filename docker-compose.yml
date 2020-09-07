@@ -1,8 +1,8 @@
 version: "3.3"
 services:
-  mongo:
+  gitlab:
     image: gitlab/gitlab-ce:latest
-    container_name: mongo
+    container_name: gitlab
     restart: on-failure
     hostname: gitlab.cortijodemazas.com
     ports:
